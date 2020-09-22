@@ -29,7 +29,10 @@
             "ts": "never"
         }
       ],
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "@typescriot-eslint/no-unused-vars": ["error", {
+        "argsIgnorePattern": "_"
+      }],
     },
     "settings": {
         "import/resolver": {
